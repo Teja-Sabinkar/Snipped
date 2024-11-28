@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <!-- charcter set, website name, favicon, font style -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Name</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link data-default-icon="favicon.ico" rel="shortcut icon" size="192x192" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c800e88a84.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+
+
+
+    <!-- HEADER SECTION -->
+
+
+
+    <div class="header-content">
+
+
+
+        <!-- Header Left-Section -->
+        <div class="header-left-section">
+            <div class="hamburger-menu">
+                <header>
+                    <button id="hamburger-menu" aria-label="Open menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </header>
+
+                <nav id="sidebar" aria-hidden="true">
+                    <section>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#popular">Popular</a></li>
+                            <li><a href="#explore">Explore</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li><a href="#recently-viewed">Recently Viewed</a></li>
+                            <li><a href="#subscriptions">Subscriptions</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#help">Help</a></li>
+                            <li><a href="#settings">Settings</a></li>
+                        </ul>
+                    </section>
+                </nav>
+
+            </div>
+            <div class="youtube-logo">
+                <img src="https://www.youtube.com/img/desktop/yt_dark_logo.png" alt="YouTube Logo">
+            </div>
+        </div>
+
+        <!-- Header Middle-Section -->
+        <div class="header-middle-section">
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="Search">
+                <button class="search-btn">
+                    <i class="fas fa-magnifying-glass icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Header Right-Section -->
+        <div class="header-right-section">
+            <div class="notification-container">
+                <div class="notification-bell">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-count">3</span>
+                </div>
+                <div class="notification-dropdown">
+                    <div class="notification-header">
+                        <h3>Notifications</h3>
+                        <button class="mark-as-read">Mark all as read</button>
+                    </div>
+                    <ul class="notification-list">
+                        <li class="notification-item unread">
+                            <div class="notification-content">
+                                <strong>John Doe</strong> commented on your post
+                            </div>
+                            <div class="notification-time">2 hours ago</div>
+                        </li>
+                        <li class="notification-item unread">
+                            <div class="notification-content">
+                                <strong>Jane Smith</strong> liked your photo
+                            </div>
+                            <div class="notification-time">4 hours ago</div>
+                        </li>
+                        <li class="notification-item unread">
+                            <div class="notification-content">
+                                <strong>Admin</strong> posted a new announcement
+                            </div>
+                            <div class="notification-time">1 day ago</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profile-container">
+                <div class="profile-icon">
+                    JD
+                </div>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Account Profile</a>
+                    <a href="#" class="dropdown-item">Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">
+                        Premium
+                        <span class="premium-badge">PRO</span>
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">Sign Out</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- SECTION-1 -->
+
+    <div class="section-1">
+
+
+
+        <!-- Vedio & channel info Container -->
+        <div class="section-1-1">
+
+
+
+            <div class="video-container">
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="section-1-2">
+
+
+            <!-- creator-channel-info -->
+
+            <div class="creator-channel-info">
+                <!-- Profile Avatar -->
+                <div class="profile-info">
+                    <div class="avatar" role="img" aria-label="Profile avatar"></div>
+                    <h4 class="name">Name</h4>
+                    <div class="stat-label">xx.xx K</div>
+
+                    <button class="subscribe-button">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+
+
+
+
+            <div class="Links-search-container">
+                <input type="text" class="Links-search-input" placeholder="Search for links...">
+            </div>
+
+
+
+            <!-- Creator Links -->
+            <div class="Creator-links-section">
+                <h3>Creator Links</h3>
+                <ul class="links-list">
+                    <li class="link-item">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Creator Link 1</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                    <li class="link-item">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Creator Link 2</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                    <li class="link-item">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Creator Link 3</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                    <!-- Hidden items initially -->
+                    <li class="link-item hidden">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Creator Link 4</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                    <li class="link-item hidden">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Creator Link 5</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                    <li class="link-item hidden">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Creator Link 6</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <div class="show-more-container">
+                    <button class="Creator-show-more-button">Show More</button>
+                </div>
+
+            </div>
+
+
+
+
+            <!-- Community Links -->
+            <div class="Community-links-section">
+                <h3>Community Links</h3>
+                <ul class="links-list">
+                    <li class="link-item">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Community Link 1</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                    <li class="link-item">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Community Link 2</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                    <li class="link-item">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Community Link 3</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                    <!-- Hidden items initially -->
+                    <li class="link-item hidden">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Community Link 4</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                    <li class="link-item hidden">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Community Link 5</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                    <li class="link-item hidden">
+                        <div class="link-content">
+                            <a href="#" class="link-text">Community Link 6</a>
+                        </div>
+                        <div class="voting">
+                            <button class="vote-button upvote" aria-label="Upvote">▲</button>
+                            <span class="vote-count">0</span>
+                            <button class="vote-button downvote" aria-label="Downvote">▼</button>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="show-more-container">
+                    <button class="Community-show-more-button">Show More</button>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <!-- SECTION-2 -->
+    <div class="section-2">
+
+
+        <!-- Section-2-1 -->
+        <div class="section-2-1">
+
+
+
+            <!-- Title & Creation Date -->
+            <div class="Description-title-section">
+                <h1 class="Description-title">Learn HTL, CSS & J.S.</h1>
+            </div>
+
+
+
+            <!-- Description Box -->
+            <div class="description-box">
+                <div class="hashtags">
+                    <span class="hashtag">#WebDevelopment</span>
+                    <span class="hashtag">#HTML</span>
+                    <span class="hashtag">#CSS</span>
+                </div>
+
+                <div class="description-content" id="descriptionContent">
+                    Additional Information:
+                    This tutorial is part of our Web Development Series. Don't forget to like and subscribe
+                    for
+                    more content
+                    like this! New videos every week covering everything from basics to advanced web
+                    development
+                    concepts.
+
+
+                    📧 Contact Information:
+                    Business Inquiries: contact@webdevchannel.com
+                    Twitter: @WebDevChannel
+                    Instagram: @WebDevTutorials
+
+                    Additional Information:
+                    This tutorial is part of our Web Development Series. Don't forget to like and subscribe
+                    for
+                    more content
+                    like this! New videos every week covering everything from basics to advanced web
+                    development
+                    concepts.
+
+
+                    📧 Contact Information:
+                    Business Inquiries: contact@webdevchannel.com
+                    Twitter: @WebDevChannel
+                    Instagram: @WebDevTutorials
+
+                    Additional Information:
+                    This tutorial is part of our Web Development Series. Don't forget to like and subscribe
+                    for
+                    more content
+                    like this! New videos every week covering everything from basics to advanced web
+                    development
+                    concepts.
+
+
+                    📧 Contact Information:
+                    Business Inquiries: contact@webdevchannel.com
+                    Twitter: @WebDevChannel
+                    Instagram: @WebDevTutorials
+
+                    Additional Information:
+                    This tutorial is part of our Web Development Series. Don't forget to like and subscribe
+                    for
+                    more content
+                    like this! New videos every week covering everything from basics to advanced web
+                    development
+                    concepts.
+
+
+                    📧 Contact Information:
+                    Business Inquiries: contact@webdevchannel.com
+                    Twitter: @WebDevChannel
+                    Instagram: @WebDevTutorials
+
+                    Additional Information:
+                    This tutorial is part of our Web Development Series. Don't forget to like and subscribe
+                    for
+                    more content
+                    like this! New videos every week covering everything from basics to advanced web
+                    development
+                    concepts.
+
+
+                    📧 Contact Information:
+                    Business Inquiries: contact@webdevchannel.com
+                    Twitter: @WebDevChannel
+                    Instagram: @WebDevTutorials
+
+                    Additional Information:
+                    This tutorial is part of our Web Development Series. Don't forget to like and subscribe
+                    for
+                    more content
+                    like this! New videos every week covering everything from basics to advanced web
+                    development
+                    concepts.
+
+
+                    📧 Contact Information:
+                    Business Inquiries: contact@webdevchannel.com
+                    Twitter: @WebDevChannel
+                    Instagram: @WebDevTutorials
+
+                    Additional Information:
+                    This tutorial is part of our Web Development Series. Don't forget to like and subscribe
+                    for
+                    more content
+                    like this! New videos every week covering everything from basics to advanced web
+                    development
+                    concepts.
+
+
+                    📧 Contact Information:
+                    Business Inquiries: contact@webdevchannel.com
+                    Twitter: @WebDevChannel
+                    Instagram: @WebDevTutorials
+
+
+
+                </div>
+
+                <button class="show-more-btn"></button>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Section-2-2 -->
+        <div class="section-2-2">
+            <div class="Discussion-title">Discussion Threads</div>
+
+            <div class="comment-box-container">
+                <div class="comment-box">
+                    <textarea id="newCommentText" placeholder="What are your thoughts?"></textarea>
+                    <button class="submit-button" onclick="addNewComment()">Comment</button>
+                </div>
+            </div>
+
+            <div class="comment-thread" id="commentThread">
+                <!-- Existing comments will be here -->
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Section-3 -->
+    <div class="section-3">
+        <h3>Recommendations</h3>
+
+
+
+        <div class="section-3-1">
+
+
+
+
+            <div class="recommendation-video-container">
+                <div class="thumbnail">
+                    <img src="/placeholder.svg?height=9.4&width=16.8" alt="Video thumbnail">
+                </div>
+                <div class="video-info-container">
+                    <div class="video-info">
+                        <h2 class="video-title">How Brands Use Design & Marketing to Control Your Mind</h2>
+                        <div class="video-meta">
+                            <div class="channel-info">
+                                <span>Design Theory</span>
+                                <svg class="verified-badge" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+                                    <path
+                                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <span class="meta-separator">•</span>
+                            <span>2.5M views</span>
+                            <span class="meta-separator">•</span>
+                            <span>1 year ago</span>
+                        </div>
+                    </div>
+                    <button class="menu-button" aria-label="More actions">
+                        <svg class="menu-icon" viewBox="0 0 24 24">
+                            <path
+                                d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+
+
+            <div class="recommendation-video-container">
+                <div class="thumbnail">
+                    <img src="/placeholder.svg?height=9.4&width=16.8" alt="Video thumbnail">
+                </div>
+                <div class="video-info-container">
+                    <div class="video-info">
+                        <h2 class="video-title">How Brands Use Design & Marketing to Control Your Mind</h2>
+                        <div class="video-meta">
+                            <div class="channel-info">
+                                <span>Design Theory</span>
+                                <svg class="verified-badge" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+                                    <path
+                                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <span class="meta-separator">•</span>
+                            <span>2.5M views</span>
+                            <span class="meta-separator">•</span>
+                            <span>1 year ago</span>
+                        </div>
+                    </div>
+                    <button class="menu-button" aria-label="More actions">
+                        <svg class="menu-icon" viewBox="0 0 24 24">
+                            <path
+                                d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+
+
+            <div class="recommendation-video-container">
+                <div class="thumbnail">
+                    <img src="/placeholder.svg?height=9.4&width=16.8" alt="Video thumbnail">
+                </div>
+                <div class="video-info-container">
+                    <div class="video-info">
+                        <h2 class="video-title">How Brands Use Design & Marketing to Control Your Mind</h2>
+                        <div class="video-meta">
+                            <div class="channel-info">
+                                <span>Design Theory</span>
+                                <svg class="verified-badge" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+                                    <path
+                                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <span class="meta-separator">•</span>
+                            <span>2.5M views</span>
+                            <span class="meta-separator">•</span>
+                            <span>1 year ago</span>
+                        </div>
+                    </div>
+                    <button class="menu-button" aria-label="More actions">
+                        <svg class="menu-icon" viewBox="0 0 24 24">
+                            <path
+                                d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <button class="show-more-recommendations">Show more</button>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <!--Script for header "HAMBURGER MENU" option-->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerMenu = document.getElementById('hamburger-menu');
+            const sidebar = document.getElementById('sidebar');
+            const main = document.querySelector('main');
+
+            hamburgerMenu.addEventListener('click', toggleSidebar);
+
+            document.addEventListener('click', (event) => {
+                if (!sidebar.contains(event.target) && !hamburgerMenu.contains(event.target) && sidebar.classList.contains('open')) {
+                    toggleSidebar();
+                }
+            });
+
+            function toggleSidebar() {
+                sidebar.classList.toggle('open');
+                main.classList.toggle('shifted');
+
+                const isOpen = sidebar.classList.contains('open');
+                sidebar.setAttribute('aria-hidden', !isOpen);
+                hamburgerMenu.setAttribute('aria-expanded', isOpen);
+
+                // Animate hamburger menu
+                const spans = hamburgerMenu.querySelectorAll('span');
+                spans[0].style.transform = isOpen ? 'rotate(45deg) translate(5px, 5px)' : 'none';
+                spans[1].style.opacity = isOpen ? '0' : '1';
+                spans[2].style.transform = isOpen ? 'rotate(-45deg) translate(7px, -6px)' : 'none';
+            }
+
+            // Trap focus within sidebar when open
+            sidebar.addEventListener('keydown', (e) => {
+                if (e.key === 'Tab' && sidebar.classList.contains('open')) {
+                    const focusableElements = sidebar.querySelectorAll('a, button, input, select, textarea, [tabindex]:not([tabindex="-1"])');
+                    const firstElement = focusableElements[0];
+                    const lastElement = focusableElements[focusableElements.length - 1];
+
+                    if (e.shiftKey && document.activeElement === firstElement) {
+                        e.preventDefault();
+                        lastElement.focus();
+                    } else if (!e.shiftKey && document.activeElement === lastElement) {
+                        e.preventDefault();
+                        firstElement.focus();
+                    }
+                }
+            });
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+    <!--Script for header "NOTIFICATION DROP DOWN" option-->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const notificationBell = document.querySelector('.notification-bell');
+            const notificationDropdown = document.querySelector('.notification-dropdown');
+            const notificationCount = document.querySelector('.notification-count');
+            const markAsReadButton = document.querySelector('.mark-as-read');
+            const notificationItems = document.querySelectorAll('.notification-item');
+
+            let isDropdownVisible = false;
+
+            notificationBell.addEventListener('click', () => {
+                isDropdownVisible = !isDropdownVisible;
+                notificationDropdown.style.display = isDropdownVisible ? 'block' : 'none';
+            });
+
+            document.addEventListener('click', (event) => {
+                const isClickInside = notificationBell.contains(event.target) || notificationDropdown.contains(event.target);
+                if (!isClickInside && isDropdownVisible) {
+                    notificationDropdown.style.display = 'none';
+                    isDropdownVisible = false;
+                }
+            });
+
+            markAsReadButton.addEventListener('click', () => {
+                notificationItems.forEach(item => {
+                    item.classList.remove('unread');
+                });
+                updateNotificationCount();
+            });
+
+            notificationItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    item.classList.remove('unread');
+                    updateNotificationCount();
+                });
+            });
+
+            function updateNotificationCount() {
+                const unreadCount = document.querySelectorAll('.notification-item.unread').length;
+                notificationCount.textContent = unreadCount;
+                notificationCount.style.display = unreadCount > 0 ? 'block' : 'none';
+            }
+
+            updateNotificationCount();
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Script for header "PROFILE DROP DOWN" option-->
+    <script>
+        const profileIcon = document.querySelector('.profile-icon');
+        const dropdownMenu = document.querySelector('.dropdown-menu');
+
+        // Toggle dropdown on click
+        profileIcon.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdownMenu.classList.toggle('active');
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!profileIcon.contains(e.target)) {
+                dropdownMenu.classList.remove('active');
+            }
+        });
+
+        // Handle dropdown item clicks
+        document.querySelectorAll('.dropdown-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+                const action = e.target.textContent.trim();
+                console.log(`Clicked: ${action}`);
+                dropdownMenu.classList.remove('active');
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Script for Links "SEARCH BAR" -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.querySelector('.Links-search-input');
+            const allLinks = document.querySelectorAll('.Creator-links-section .link-item, .Community-links-section .link-item');
+            const noResultsDiv = document.querySelector('.no-results');
+            const creatorShowMoreBtn = document.querySelector('.Creator-show-more-button');
+            const communityShowMoreBtn = document.querySelector('.Community-show-more-button');
+
+            // Function to handle search
+            function handleSearch(event) {
+                const searchTerm = event.target.value.toLowerCase().trim();
+                let hasResults = false;
+
+                // If search is empty, show default state
+                if (searchTerm === '') {
+                    allLinks.forEach(link => {
+                        if (link.classList.contains('hidden')) {
+                            link.style.display = 'none';
+                        } else {
+                            link.style.display = 'flex';
+                        }
+                    });
+                    noResultsDiv.classList.add('hidden');
+                    creatorShowMoreBtn.style.display = 'block';
+                    communityShowMoreBtn.style.display = 'block';
+                    return;
+                }
+
+                // Search implementation
+                allLinks.forEach(link => {
+                    const linkText = link.querySelector('.link-text').textContent.toLowerCase();
+                    if (linkText.includes(searchTerm)) {
+                        link.style.display = 'flex';
+                        hasResults = true;
+                    } else {
+                        link.style.display = 'none';
+                    }
+                });
+
+                // Show/hide no results message
+                if (!hasResults) {
+                    noResultsDiv.classList.remove('hidden');
+                    allLinks.forEach(link => {
+                        link.style.display = 'flex';
+                    });
+                } else {
+                    noResultsDiv.classList.add('hidden');
+                }
+
+                // Hide "Show More" buttons during search
+                creatorShowMoreBtn.style.display = 'none';
+                communityShowMoreBtn.style.display = 'none';
+            }
+
+            // Add event listeners
+            searchInput.addEventListener('input', handleSearch);
+            creatorShowMoreBtn.addEventListener('click', () => handleShowMore('Creator-links-section'));
+            communityShowMoreBtn.addEventListener('click', () => handleShowMore('Community-links-section'));
+
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+    <!--Script for "VOTING"-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Function to rearrange links based on vote count
+            function rearrangeLinks(linksSection) {
+                const linksList = linksSection.querySelector('.links-list');
+                const linkItems = Array.from(linksList.querySelectorAll('.link-item'));
+
+                // Sort link items based on vote count
+                linkItems.sort((a, b) => {
+                    const voteCountA = parseInt(a.querySelector('.vote-count').textContent);
+                    const voteCountB = parseInt(b.querySelector('.vote-count').textContent);
+                    return voteCountB - voteCountA; // Descending order
+                });
+
+                // Clear existing list
+                linksList.innerHTML = '';
+
+                // Reappend sorted items
+                linkItems.forEach(item => {
+                    linksList.appendChild(item);
+                });
+            }
+
+            // Voting functionality
+            const voteButtons = document.querySelectorAll('.vote-button');
+
+            voteButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const voting = this.closest('.voting');
+                    const voteCount = voting.querySelector('.vote-count');
+                    const currentCount = parseInt(voteCount.textContent);
+                    const isUpvote = this.classList.contains('upvote');
+                    const siblingButton = isUpvote ?
+                        voting.querySelector('.downvote') :
+                        voting.querySelector('.upvote');
+
+                    if (this.classList.contains('active')) {
+                        this.classList.remove('active');
+                        voteCount.textContent = isUpvote ? currentCount - 1 : currentCount + 1;
+                    }
+                    else if (siblingButton.classList.contains('active')) {
+                        siblingButton.classList.remove('active');
+                        this.classList.add('active');
+                        voteCount.textContent = isUpvote ? currentCount + 2 : currentCount - 2;
+                    }
+                    else {
+                        this.classList.add('active');
+                        voteCount.textContent = isUpvote ? currentCount + 1 : currentCount - 1;
+                    }
+
+                    // Rearrange links in both sections
+                    const creatorLinksSection = document.querySelector('.Creator-links-section');
+                    const communityLinksSection = document.querySelector('.Community-links-section');
+
+                    rearrangeLinks(creatorLinksSection);
+                    rearrangeLinks(communityLinksSection);
+                });
+            });
+
+            // Show More functionality for "Creator-show-more-button"
+            const creatorShowMoreButton = document.querySelector('.Creator-show-more-button');
+            const creatorHiddenItems = document.querySelectorAll('.Creator-links-section .link-item.hidden');
+
+            let isCreatorExpanded = false;
+
+            creatorShowMoreButton.addEventListener('click', function () {
+                if (!isCreatorExpanded) {
+                    creatorHiddenItems.forEach(item => {
+                        item.classList.remove('hidden');
+                        item.classList.add('fade-in');
+                    });
+                    creatorShowMoreButton.textContent = 'Show Less';
+                } else {
+                    creatorHiddenItems.forEach(item => {
+                        item.classList.add('hidden');
+                        item.classList.remove('fade-in');
+                    });
+                    creatorShowMoreButton.textContent = 'Show More';
+                }
+                isCreatorExpanded = !isCreatorExpanded;
+            });
+
+            // Show More functionality for "Community-show-more-button"
+            const communityShowMoreButton = document.querySelector('.Community-show-more-button');
+            const communityHiddenItems = document.querySelectorAll('.Community-links-section .link-item.hidden');
+
+            let isCommunityExpanded = false;
+
+            communityShowMoreButton.addEventListener('click', function () {
+                if (!isCommunityExpanded) {
+                    communityHiddenItems.forEach(item => {
+                        item.classList.remove('hidden');
+                        item.classList.add('fade-in');
+                    });
+                    communityShowMoreButton.textContent = 'Show Less';
+                } else {
+                    communityHiddenItems.forEach(item => {
+                        item.classList.add('hidden');
+                        item.classList.remove('fade-in');
+                    });
+                    communityShowMoreButton.textContent = 'Show More';
+                }
+                isCommunityExpanded = !isCommunityExpanded;
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    <!--Script for description box "SHOW MORE" option-->
+    <script>
+        document.querySelector('.show-more-btn').addEventListener('click', function () {
+            this.closest('.description-box').classList.toggle('expanded');
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    <!--Script for "COMMENT BOX" resizing-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const textarea = document.querySelector('.comment-box textarea');
+            const submitButton = document.querySelector('.comment-box button');
+            let originalHeight;
+
+            function initializeTextarea() {
+                if (!textarea) return;
+
+                // Store the original height
+                originalHeight = window.getComputedStyle(textarea).height;
+
+                // Set initial styles
+                textarea.style.resize = 'none';
+                textarea.style.transition = 'height 0.2s ease-in-out';
+
+                // Add event listeners
+                textarea.addEventListener('input', autoResize);
+                submitButton.addEventListener('click', submitComment);
+
+                // Initial resize
+                autoResize();
+            }
+
+            function autoResize() {
+                textarea.style.height = 'auto';
+                textarea.style.height = Math.max(textarea.scrollHeight, parseInt(originalHeight)) + 'px';
+            }
+
+            function resetSize() {
+                textarea.style.height = originalHeight;
+            }
+
+            function submitComment() {
+                // Here you would typically send the comment to a server
+                console.log("Comment submitted:", textarea.value);
+
+                // Clear the textarea
+                textarea.value = '';
+
+                // Reset the size
+                resetSize();
+            }
+
+            initializeTextarea();
+
+            // For demonstration purposes, let's simulate typing and submitting a comment
+            console.log("Initial height:", textarea.style.height);
+
+            // Simulate typing
+            textarea.value = "This is a sample comment that will make the textarea grow.";
+            autoResize();
+            console.log("Height after typing:", textarea.style.height);
+
+            // Simulate submitting the comment
+            submitComment();
+            console.log("Height after submitting:", textarea.style.height);
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <!--Script for "DISCUSSION THREADS" and its comment box resizing-->
+    <script>
+        const MAX_NESTING_LEVEL = 8;
+
+        function formatTimestamp(date) {
+            // Previous timestamp formatting code remains the same
+        }
+
+        function createCommentElement(text, isReply = false, nestingLevel = 0) {
+            const comment = document.createElement('div');
+            comment.className = 'comment';
+
+            // Add max-depth class if at maximum nesting level
+            if (nestingLevel >= MAX_NESTING_LEVEL) {
+                comment.classList.add('max-depth');
+            }
+
+            const commentHTML = `
+            <div class="comment-header">
+                <button class="collapse-button" onclick="toggleCollapse(this)">
+                    <div class="collapse-icon"></div>
+                </button>
+                <div class="avatar">
+                    <img src="https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70)}" alt="user avatar">
+                </div>
+                <span class="username">User${Math.floor(Math.random() * 1000)}</span>
+                <span class="timestamp">${formatTimestamp(new Date())}</span>
+            </div>
+            <div class="comment-content">${text}</div>
+            <div class="comment-actions">
+                <button class="action-button" onclick="toggleLike(this)">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                    </svg>
+                    <span class="like-count">0</span>
+                </button>
+                <button class="action-button" onclick="showReplyBox(this)">Reply</button>
+                <button class="action-button">Share</button>
+            </div>
+            <div class="nested-comments${nestingLevel > 0 ? ` level-${nestingLevel}` : ''}"></div>
+        `;
+
+            comment.innerHTML = commentHTML;
+            return comment;
+        }
+
+        function getNestingLevel(element) {
+            let level = 0;
+            let parent = element.closest('.nested-comments');
+            while (parent) {
+                level++;
+                parent = parent.parentElement.closest('.nested-comments');
+            }
+            return level;
+        }
+
+        function updateCollapseButtons(comment) {
+            const nestedComments = comment.querySelector('.nested-comments');
+            if (nestedComments && nestedComments.children.length > 0) {
+                comment.classList.add('has-nested');
+
+                Array.from(nestedComments.children).forEach(nestedComment => {
+                    if (nestedComment.classList.contains('comment')) {
+                        const subNestedComments = nestedComment.querySelector('.nested-comments');
+                        if (subNestedComments && subNestedComments.children.length > 0) {
+                            nestedComment.classList.add('has-nested');
+                        } else {
+                            nestedComment.classList.remove('has-nested');
+                        }
+                    }
+                });
+            } else {
+                comment.classList.remove('has-nested');
+            }
+        }
+
+        function addNewComment() {
+            const commentText = document.getElementById('newCommentText').value.trim();
+            if (!commentText) return;
+
+            const commentThread = document.getElementById('commentThread');
+            const newComment = createCommentElement(commentText, false, 0);
+            commentThread.insertBefore(newComment, commentThread.firstChild);
+
+            document.getElementById('newCommentText').value = '';
+            updateCollapseButtons(newComment);
+        }
+
+        function toggleCollapse(button) {
+            const comment = button.closest('.comment');
+            const nestedComments = comment.querySelector('.nested-comments');
+            button.classList.toggle('collapsed');
+
+            if (nestedComments) {
+                nestedComments.classList.toggle('collapsed');
+
+                if (!nestedComments.classList.contains('collapsed')) {
+                    nestedComments.style.height = 'auto';
+                    const height = nestedComments.scrollHeight;
+                    nestedComments.style.height = height + 'px';
+                } else {
+                    nestedComments.style.height = '0';
+                }
+            }
+        }
+
+        function toggleLike(button) {
+            button.classList.toggle('liked');
+            const likeCount = button.querySelector('.like-count');
+            const currentLikes = parseInt(likeCount.textContent);
+            likeCount.textContent = button.classList.contains('liked') ? currentLikes + 1 : currentLikes - 1;
+        }
+
+        function showReplyBox(button) {
+            const comment = button.closest('.comment');
+            const nestingLevel = getNestingLevel(comment);
+
+            // Check if we've reached max nesting level
+            if (nestingLevel >= MAX_NESTING_LEVEL) {
+                alert('Maximum nesting level reached. Cannot add more nested comments.');
+                return;
+            }
+
+            const nestedComments = comment.querySelector('.nested-comments');
+
+            // Remove existing reply box if present
+            const existingReplyBox = nestedComments.querySelector('.comment-box');
+            if (existingReplyBox) {
+                existingReplyBox.remove();
+                return;
+            }
+
+            // Create reply box
+            const replyBox = document.createElement('div');
+            replyBox.className = 'comment-box';
+            replyBox.innerHTML = `
+            <textarea placeholder="Write a reply..."></textarea>
+            <button class="submit-button" onclick="submitReply(this)">Reply</button>
+        `;
+
+            nestedComments.insertBefore(replyBox, nestedComments.firstChild);
+        }
+
+        function submitReply(button) {
+            const replyBox = button.closest('.comment-box');
+            const replyText = replyBox.querySelector('textarea').value.trim();
+            if (!replyText) return;
+
+            const nestedComments = replyBox.closest('.nested-comments');
+            const parentComment = nestedComments.closest('.comment');
+            const nestingLevel = getNestingLevel(parentComment) + 1;
+
+            // Create new reply with current nesting level
+            const newReply = createCommentElement(replyText, true, nestingLevel);
+
+            nestedComments.insertBefore(newReply, replyBox);
+            replyBox.remove();
+
+            // Update collapse buttons for both the parent comment and the new reply
+            updateCollapseButtons(parentComment);
+            updateCollapseButtons(newReply);
+
+            // Expand the parent comment's nested comments section if collapsed
+            const parentCollapseButton = parentComment.querySelector('.collapse-button');
+            if (parentCollapseButton && parentCollapseButton.classList.contains('collapsed')) {
+                toggleCollapse(parentCollapseButton);
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Script for searching the  "DISCUSSION THREADS" from "COMMENT BOX"-->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const textarea = document.querySelector('.comment-box textarea');
+            let currentMatchingComments = [];
+            let originalOrder = null;
+
+            function performCommentSearch(searchTerm) {
+                const commentThread = document.getElementById('commentThread');
+                const allComments = commentThread.querySelectorAll('.comment');
+                let matchingComments = [];
+
+                // Reset previous state
+                allComments.forEach(comment => {
+                    comment.classList.remove('search-match');
+                    const content = comment.querySelector('.comment-content');
+                    if (content) {
+                        content.innerHTML = content.innerHTML.replace(/<mark class="search-highlight">(.*?)<\/mark>/g, '$1');
+                    }
+                });
+
+                // Enhanced search logic with highlighting
+                allComments.forEach(comment => {
+                    const contentElement = comment.querySelector('.comment-content');
+                    if (contentElement) {
+                        const commentContent = contentElement.textContent;
+                        const searchRegex = new RegExp(searchTerm, 'gi');
+
+                        if (searchRegex.test(commentContent)) {
+                            matchingComments.push(comment);
+
+                            const highlightedContent = commentContent.replace(
+                                searchRegex,
+                                match => `<mark class="search-highlight">${match}</mark>`
+                            );
+                            contentElement.innerHTML = highlightedContent;
+                        }
+                    }
+                });
+
+                return matchingComments;
+            }
+
+            function createReferenceButton(matchingComments) {
+                const existingRefButton = document.querySelector('.reference-button');
+                if (existingRefButton) existingRefButton.remove();
+
+                if (matchingComments.length === 0) return;
+
+                const referenceButton = document.createElement('button');
+                referenceButton.className = 'reference-button';
+                referenceButton.textContent = `${matchingComments.length} References`;
+                referenceButton.addEventListener('click', () => {
+                    sortDiscussionThreads(matchingComments);
+                });
+
+                textarea.parentNode.insertBefore(referenceButton, textarea.nextSibling);
+            }
+
+            function findAllNestedParents(comment) {
+                const parents = [];
+                let currentParent = comment.closest('.nested-comments')?.closest('.comment');
+                while (currentParent) {
+                    parents.push(currentParent);
+                    currentParent = currentParent.closest('.nested-comments')?.closest('.comment');
+                }
+                return parents;
+            }
+
+            function storeOriginalOrder() {
+                if (!originalOrder) {
+                    const commentThread = document.getElementById('commentThread');
+                    originalOrder = Array.from(commentThread.children);
+                }
+            }
+
+            function restoreOriginalOrder() {
+                if (originalOrder) {
+                    const commentThread = document.getElementById('commentThread');
+                    originalOrder.forEach(comment => {
+                        commentThread.appendChild(comment);
+                    });
+                }
+            }
+
+            function moveCommentsToTop(matchingComments) {
+                const commentThread = document.getElementById('commentThread');
+
+                storeOriginalOrder();
+
+                const matchedFragment = document.createDocumentFragment();
+                const remainingFragment = document.createDocumentFragment();
+
+                const allComments = Array.from(commentThread.children);
+
+                allComments.forEach(comment => {
+                    if (matchingComments.includes(comment) ||
+                        matchingComments.some(match => comment.contains(match))) {
+                        matchedFragment.appendChild(comment);
+                    } else {
+                        remainingFragment.appendChild(comment);
+                    }
+                });
+
+                commentThread.innerHTML = '';
+                commentThread.appendChild(matchedFragment);
+                commentThread.appendChild(remainingFragment);
+            }
+
+            function sortDiscussionThreads(matchingComments) {
+                const commentThread = document.getElementById('commentThread');
+                const allComments = commentThread.querySelectorAll('.comment');
+
+                allComments.forEach(comment => {
+                    comment.classList.remove('search-match');
+                    comment.classList.remove('parent-match');
+                });
+
+                matchingComments.forEach(matchComment => {
+                    matchComment.classList.add('search-match');
+
+                    const parentComments = findAllNestedParents(matchComment);
+                    parentComments.forEach(parent => {
+                        parent.classList.add('parent-match');
+
+                        const collapseButton = parent.querySelector('.collapse-button');
+                        if (collapseButton && collapseButton.classList.contains('collapsed')) {
+                            toggleCollapse(collapseButton);
+                        }
+                    });
+                });
+
+                moveCommentsToTop(matchingComments);
+            }
+
+            // Add corresponding CSS
+            const style = document.createElement('style');
+            style.textContent = `
+        .search-match {
+            border-left: 3px solid #ffd700 !important;
+            background-color: rgb(87 35 35 / 48%) !important;
+        }
+        .parent-match {
+            border-left: 3px solid #ffd700 !important;
+        }
+        .search-highlight {
+            background-color: #ffd700;
+            padding: 2px;
+            border-radius: 2px;
+        }
+    `;
+            document.head.appendChild(style);
+
+            textarea.addEventListener('input', function () {
+                const searchTerm = this.value.trim();
+                if (searchTerm.length > 2) {
+                    currentMatchingComments = performCommentSearch(searchTerm);
+                    createReferenceButton(currentMatchingComments);
+                } else {
+                    const allComments = document.getElementById('commentThread').querySelectorAll('.comment');
+                    allComments.forEach(comment => {
+                        comment.classList.remove('search-match');
+                        comment.classList.remove('parent-match');
+                        const content = comment.querySelector('.comment-content');
+                        if (content) {
+                            content.innerHTML = content.innerHTML.replace(/<mark class="search-highlight">(.*?)<\/mark>/g, '$1');
+                        }
+                    });
+
+                    const existingRefButton = document.querySelector('.reference-button');
+                    if (existingRefButton) existingRefButton.remove();
+
+                    // Restore original order when search field is cleared
+                    restoreOriginalOrder();
+                }
+            });
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Script for "show-more-recommendations" button in Recommendations-->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Create additional recommendation items programmatically
+            const section31 = document.querySelector('.section-3-1');
+            const showMoreButton = document.querySelector('.show-more-recommendations');
+            let isExpanded = false;
+
+            // Function to create a new recommendation item
+            function createRecommendationItem(index) {
+                const container = document.createElement('div');
+                container.className = 'recommendation-video-container hidden additional-recommendation';
+
+                container.innerHTML = `
+            <div class="thumbnail">
+                <img src="/placeholder.svg?height=9.4&width=16.8" alt="Video thumbnail">
+            </div>
+            <div class="video-info-container">
+                <div class="video-info">
+                    <h2 class="video-title">Additional Video Recommendation ${index}</h2>
+                    <div class="video-meta">
+                        <div class="channel-info">
+                            <span>Channel ${index}</span>
+                            <svg class="verified-badge" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+                                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path>
+                            </svg>
+                        </div>
+                        <span class="meta-separator">•</span>
+                        <span>${Math.floor(Math.random() * 1000)}K views</span>
+                        <span class="meta-separator">•</span>
+                        <span>${Math.floor(Math.random() * 11) + 1} months ago</span>
+                    </div>
+                </div>
+                <button class="menu-button" aria-label="More actions">
+                    <svg class="menu-icon" viewBox="0 0 24 24">
+                        <path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path>
+                    </svg>
+                </button>
+            </div>
+        `;
+
+                return container;
+            }
+
+            // Add 6 hidden recommendation items
+            for (let i = 1; i <= 6; i++) {
+                const newItem = createRecommendationItem(i);
+                // Insert the new item before the show more button
+                section31.insertBefore(newItem, showMoreButton);
+            }
+
+            // Handle show more/less functionality
+            showMoreButton.addEventListener('click', function () {
+                const hiddenItems = document.querySelectorAll('.additional-recommendation');
+                isExpanded = !isExpanded;
+
+                hiddenItems.forEach((item, index) => {
+                    if (isExpanded) {
+                        item.classList.remove('hidden');
+                        // Trigger reflow
+                        void item.offsetWidth;
+                        item.classList.add('fade-in');
+                        // Add delay for staggered animation
+                        item.style.animationDelay = `${index * 0.1}s`;
+                        showMoreButton.textContent = 'Show less';
+                    } else {
+                        item.classList.remove('fade-in');
+                        item.classList.add('hidden');
+                        item.style.animationDelay = '0s';
+                        showMoreButton.textContent = 'Show more';
+                    }
+                });
+            });
+
+            // Add hover effect for all recommendation items
+            document.addEventListener('mouseover', function (e) {
+                const recommendationItem = e.target.closest('.recommendation-video-container');
+                if (recommendationItem) {
+                    recommendationItem.style.transform = 'translateY(-2px)';
+                    recommendationItem.style.backgroundColor = 'var(--secondary-hover)';
+                }
+            });
+
+            document.addEventListener('mouseout', function (e) {
+                const recommendationItem = e.target.closest('.recommendation-video-container');
+                if (recommendationItem) {
+                    recommendationItem.style.transform = 'translateY(0)';
+                    recommendationItem.style.backgroundColor = 'var(--secondary)';
+                }
+            });
+
+            // Handle menu button clicks
+            document.addEventListener('click', function (e) {
+                const menuButton = e.target.closest('.menu-button');
+                if (menuButton) {
+                    // Add your menu functionality here
+                    console.log('Menu clicked for:', menuButton.closest('.recommendation-video-container').querySelector('.video-title').textContent);
+                }
+            });
+        });
+
+
+
+    </script>
+
+
+</body>
